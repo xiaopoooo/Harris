@@ -1,0 +1,12 @@
+#ifndef HARRISCORE_GLOBAL_H
+#define HARRISCORE_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(HARRISCORE_LIBRARY)
+#  define HARRISCORESHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define HARRISCORESHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // HARRISCORE_GLOBAL_H

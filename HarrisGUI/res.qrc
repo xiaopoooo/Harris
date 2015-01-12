@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>open.png</file>
+        <file>points.png</file>
+    </qresource>
+</RCC>
